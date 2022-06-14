@@ -21,6 +21,7 @@ Docker Compose démarre un conteneur Docker à partir du nom d'une image. L'imag
 Docker Compose permet d'automatiser et aussi de versionner les commandes docker run comportant de nombreux arguments. Le conteneur server est capable de résoudre l'url mongodb://mongodb:27017 car le service est nommé mongodb.
 
 <h3>docker image rm</h3>
+permet de lister les images Docker en activitées
 
 <h3>docker compose -f docker-compose.dev.yml up</h3>
     
@@ -28,3 +29,4 @@ Docker Compose permet d'automatiser et aussi de versionner les commandes docker 
 chaque modif il faut re builder
 
 <h3>docker compose down</h3>
+clos tous les conteneurs actifs

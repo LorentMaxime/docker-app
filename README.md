@@ -26,7 +26,7 @@ permet de lister les images Docker en activitées
 <h3>docker compose -f docker-compose.dev.yml up</h3>
     
 <h3>docker compose -f docker-compose.dev.yml up --build</h3>
-chaque modif il faut re builder
+à chaque modifs il faut re builder
 
 <h3>docker compose down</h3>
 clos tous les conteneurs actifs
